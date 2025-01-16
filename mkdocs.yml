@@ -1,6 +1,6 @@
-site_name: EGR314 Team 310
-site_url: https://embedded-systems-design.github.io/template_report
-repo_url: https://github.com/embedded-systems-design/template_report
+site_name: EGR314 Team 310 
+site_url: https://asu-egr314-2025-s-310.github.io/Team310/
+repo_url: https://github.com/ASU-EGR314-2025-S-310/Team310
 edit_uri: edit/main/docs/
 theme:
   name: material

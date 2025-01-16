@@ -38,8 +38,8 @@ _Table 1: Preferred Team Member Communication Modes_
 | Name      | First Choice Communication | Second Choice Communication | Third Choice Communication |
 |-----------|-----------------------------|-----------------------------|----------------------------|
 | Kirk Volin  |                             |                             |                            |
-| Hunter Hassebroek| Discord | Text Message | Zoom |
-| Noah Brent  |                             |                             |                            |
+| Hunter Hassebroek|    Discord | Text Message | Zoom |                         |                             |                            |
+| Noah Brent  |     Text Message     |     Discord     |     Zoom     |
 | Evan Skinner  |  Discord  |    Text Message    |      Zoom       |
 
     The team will communicate via Text message or Discord and is expected to communicate in a professional 
