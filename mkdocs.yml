@@ -1,4 +1,4 @@
-site_name: EGR314 Report Template
+site_name: EGR314 Team 310
 site_url: https://embedded-systems-design.github.io/template_report
 repo_url: https://github.com/embedded-systems-design/template_report
 edit_uri: edit/main/docs/
@@ -6,8 +6,8 @@ theme:
   name: material
   custom_dir: custom_theme/
   palette:
-    primary: blue
-    accent: indigo
+    primary: black
+    accent: green
   font:
     text: Roboto
   logo: static/logo.svg
