@@ -16,6 +16,5 @@ tags:
 
 ## Preparation Date
 
-Our project will be presented during the Innovation Showcase May 2nd 2025 at 3 to 5 PM. The location for this is the Sundevil Fitness Center on ASU's Polytechnic Campus. We hope you can join us!
-
+Our project will be presented during the Innovation Showcase May 2nd 2025 at 3 to 5 PM. The location for this is the Sundevil Fitness Center on ASU's Polytechnic Campus.
 Arizona State University, Dr. Nichols, Spring 2025, 1/15/2025
