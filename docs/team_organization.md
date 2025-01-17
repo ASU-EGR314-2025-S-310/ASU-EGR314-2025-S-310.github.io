@@ -45,7 +45,7 @@ deemed necessary.
 ## Conflict Resolution
 
 As a team we agreed that differences in opinion are expected and the healthy and polite discussion is vital 
-to the efficiency and forward motion that the project demands of us. We agreed that definitive project roles 
+to the efficiency and forward motion that the project demands of us. We agreed that definitive project goals 
 and responsibilities are imperative to keeping progress organized and high quality. The team agreed that to 
 resolve any conflict team members should be prepared to apologize and compromise with others in the event of 
 a conflict. Once again professional and considerate discussion is the only tone of discussion permitted, so 
