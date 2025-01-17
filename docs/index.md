@@ -30,4 +30,4 @@ Arizona State University, Dr. Nichols, Spring 2025, 1/15/2025
 | Milestone      | [Insert Date]      |
 | Milestone             | [Insert Date]      |
 | Report Finished      | [Insert Date]      |
-| Innovation Showcase       | [Insert Date]      |
+| Innovation Showcase       | 5/2/2025      |
