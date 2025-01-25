@@ -1,5 +1,5 @@
 ---
-title: This is the index to a subfolder
+title: Appendix
 ---
 
 Things to discuss
