@@ -1,5 +1,5 @@
 ---
-title: Charts
+title: Ideation and Concept Generation
 ---
 
 
