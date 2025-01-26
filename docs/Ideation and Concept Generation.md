@@ -2,4 +2,4 @@
 title: Ideation and Concept Generation
 ---
 
-[Initial Concept Sketch](Concept_Sketch.JPG)
+![Concept Sketch](https://asu-egr314-2025-s-310.github.io/Concept_Sketch.JPG)
