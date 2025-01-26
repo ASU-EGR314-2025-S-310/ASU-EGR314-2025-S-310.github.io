@@ -11,11 +11,11 @@ the others in a complete, purposeful manner to accomplish our agreed upon goals.
 
 The creation of this Charter was defined in part through the discussion of our team goals. As previously mentioned, professionalism, communication, and collaboration are key however our team also has more product centered goals. Some of these goals include...
 
-    1. Our product in at minimum thirty different schools across the country
-    2. Low end consumer cost for an increased likelyhood of integration in the classroom
-    3. Easily replacable parts with a right to repair philosophy
-    4. An engaging product with a high percentage learning outcome among students
-    5. Durability/Build Quality strong enough to withstand a five foot fall
+1. Our product in at minimum thirty different schools across the country
+2. Low end consumer cost for an increased likelihood of integration in the classroom
+3. Easily replaceable parts with a right to repair philosophy
+4. An engaging product with a high percentage learning outcome among students
+5. Durability/Build Quality strong enough to withstand a five foot fall
 
 ## Product Statement
 
