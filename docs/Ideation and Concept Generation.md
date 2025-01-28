@@ -32,4 +32,6 @@ The goal of Team 310’s exhibit is to demonstrate the STEM principle of Electro
 
 ## Video Presentation
 
-[![310 Presentation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/title_slide.png)](https://youtu.be/sNeq0-T3qaE)
+<!-- [![310 Presentation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/title_slide.png)](https://youtu.be/sNeq0-T3qaE) -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sNeq0-T3qaE?si=eDuEUuGTXGdPqSva" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
