@@ -11,22 +11,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://asu-egr314-2025-s-310.github.io/Team310/appendix/</loc>
+         <lastmod>2025-01-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://asu-egr314-2025-s-310.github.io/Team310/team_organization/</loc>
          <lastmod>2025-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://asu-egr314-2025-s-310.github.io/Team310/static/node_modules/mathjax/</loc>
-         <lastmod>2025-01-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://asu-egr314-2025-s-310.github.io/Team310/subfolder/</loc>
-         <lastmod>2025-01-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://asu-egr314-2025-s-310.github.io/Team310/subfolder/another-subfile/</loc>
          <lastmod>2025-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
