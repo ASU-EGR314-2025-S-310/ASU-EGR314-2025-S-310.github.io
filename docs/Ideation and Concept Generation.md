@@ -32,8 +32,4 @@ The goal of Team 310’s exhibit is to demonstrate the STEM principle of Electro
 
 ## Video Presentation
 
-<!-- ![Video Presentation](https://www.youtube.com/watch?v=sNeq0-T3qaE&ab_channel=HunterHassebroek) -->
-
-[![Video Presentation](https://img.youtube.com/vi/sNeq0-T3qaE&ab_channel=HunterHassebroek.jpg)]
-
-(https://www.youtube.com/watch?v=sNeq0-T3qaE&ab_channel=HunterHassebroek)
+[![310 Presentation](https://img.youtube.com/vi/sNeq0-T3qaE&ab_channel=HunterHassebroek.jpg)](https://youtu.be/sNeq0-T3qaE)
