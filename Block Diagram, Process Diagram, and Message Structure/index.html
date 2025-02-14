@@ -415,9 +415,50 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-structure" class="md-nav__link">
-    Message Structure
+  <a href="#message-types" class="md-nav__link">
+    Message Types
   </a>
+  
+    <nav class="md-nav" aria-label="Message Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hmi-messages" class="md-nav__link">
+    HMI Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actuator-messages" class="md-nav__link">
+    Actuator Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-messages" class="md-nav__link">
+    Sensor Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mqtt-board-messages" class="md-nav__link">
+    MQTT Board Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mqtt-clientbroker-messages" class="md-nav__link">
+    MQTT Client/Broker Messages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -525,9 +566,50 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-structure" class="md-nav__link">
-    Message Structure
+  <a href="#message-types" class="md-nav__link">
+    Message Types
   </a>
+  
+    <nav class="md-nav" aria-label="Message Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hmi-messages" class="md-nav__link">
+    HMI Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actuator-messages" class="md-nav__link">
+    Actuator Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-messages" class="md-nav__link">
+    Sensor Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mqtt-board-messages" class="md-nav__link">
+    MQTT Board Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mqtt-clientbroker-messages" class="md-nav__link">
+    MQTT Client/Broker Messages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -558,46 +640,293 @@
 
 <h2 id="block-diagram">Block Diagram</h2>
 <h2 id="process-diagram">Process Diagram</h2>
-<h2 id="message-structure">Message Structure</h2>
+<h2 id="message-types">Message Types</h2>
 <table>
 <thead>
 <tr>
-<th>Message Type</th>
-<th>Description</th>
+<th>Message Type (Byte 1-2)</th>
+<th>System Send From &amp; Message Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>1/15/2025</td>
+<td>Sensor: Start Communication</td>
 </tr>
 <tr>
 <td>2</td>
-<td>[Insert Date]</td>
+<td>Sensor: Sensor State + Sensor Location</td>
 </tr>
 <tr>
 <td>3</td>
-<td>[Insert Date]</td>
+<td>Sensor: Sensor Error</td>
 </tr>
 <tr>
 <td>4</td>
-<td>[Insert Date]</td>
+<td>Sensor: Reset</td>
 </tr>
 <tr>
 <td>5</td>
-<td>[Insert Date]</td>
+<td>Sensor: End Processes</td>
 </tr>
 <tr>
 <td>6</td>
-<td>[Insert Date]</td>
+<td>Sensor: End Com</td>
 </tr>
 <tr>
 <td>7</td>
-<td>[Insert Date]</td>
+<td>Sensor:</td>
 </tr>
 <tr>
 <td>8</td>
-<td>5/2/2025</td>
+<td>Sensor:</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Actuator: Magnetic Switching State</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Actuator: Error - Incomplete / Bad Message Received</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Actuator: Reset</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Actuator: Magnet Activation Time</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Actuator:</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Actuator:</td>
+</tr>
+<tr>
+<td>15</td>
+<td>MQTT: Start Communication</td>
+</tr>
+<tr>
+<td>16</td>
+<td>MQTT: Send Data</td>
+</tr>
+<tr>
+<td>17</td>
+<td>MQTT: Transmission Error</td>
+</tr>
+<tr>
+<td>18</td>
+<td>MQTT: End Communication</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hmi-messages">HMI Messages</h3>
+<h3 id="actuator-messages">Actuator Messages</h3>
+<p>All are (uint8_t).</p>
+<table>
+<thead>
+<tr>
+<th>Byte 1-2</th>
+<th>Byte 3</th>
+<th>Byte 4-57</th>
+<th>Byte 58</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9</td>
+<td>System Sent To</td>
+<td>On/Off</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>10</td>
+<td>System Sent To</td>
+<td>Message Type</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>11</td>
+<td>System Sent To</td>
+<td>Stop Processes</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>12</td>
+<td>System Sent To</td>
+<td>Magnet Time Activated</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>13</td>
+<td>System Sent To</td>
+<td></td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>14</td>
+<td>System Sent To</td>
+<td></td>
+<td>Stop</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sensor-messages">Sensor Messages</h3>
+<p>All are (uint8_t).</p>
+<table>
+<thead>
+<tr>
+<th>Byte 1-2 <br> Message Prefix</th>
+<th>Byte 3 <br> Sender ID</th>
+<th>Byte 4 <br> Message</th>
+<th>Byte 5-57 <br> Message 2</th>
+<th>Byte 58</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Sender ID</td>
+<td>Start Communication</td>
+<td>Start Communication</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sender ID</td>
+<td>Sensor Triggered</td>
+<td>Sensor Location</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sender ID</td>
+<td>Sensor Error</td>
+<td>Sensor Location</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Sender ID</td>
+<td>Reset</td>
+<td>Reset</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sender ID</td>
+<td>End Processes</td>
+<td>End Processes</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Sender ID</td>
+<td>End Com</td>
+<td>End Com</td>
+<td>Stop</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mqtt-board-messages">MQTT Board Messages</h3>
+<p>All are (uint8_t).</p>
+<table>
+<thead>
+<tr>
+<th>Byte 1-2 <br> Message Prefix</th>
+<th>Byte 3 <br> Sender ID</th>
+<th>Byte 4 <br> Receiver ID</th>
+<th>Byte 5-57 <br> Message</th>
+<th>Byte 58</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15</td>
+<td>MQTT Board ID</td>
+<td>Receiver ID</td>
+<td>Establish Communication</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>16</td>
+<td>MQTT Board ID</td>
+<td>Receiver ID</td>
+<td>Data</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>17</td>
+<td>MQTT Board ID</td>
+<td>Receiver ID</td>
+<td>Error Message</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>18</td>
+<td>MQTT Board ID</td>
+<td>Receiver ID</td>
+<td>End Communication</td>
+<td>Stop</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mqtt-clientbroker-messages">MQTT Client/Broker Messages</h3>
+<table>
+<thead>
+<tr>
+<th>Message Type</th>
+<th>Byte 1 <br> Control/Flags</th>
+<th>Byte 2 <br> Remaining Length Flag (&lt;127 bytes) <br> *3rd byte used if message &gt; 127 bytes</th>
+<th>Bytes 3-4 <br> Variable Header</th>
+<th>Bytes 5-58 <br> Payload</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Connect</td>
+<td>(Client &gt; Broker) <br> Hex: 10</td>
+<td>Variable, represents number of bytes remaining in packet</td>
+<td>Length, Protocol name, level, connect flags</td>
+<td>Client ID, Username, Password</td>
+</tr>
+<tr>
+<td>Connect Acknowledge</td>
+<td>(Broker &gt; Client) <br> Hex: 20</td>
+<td>Variable, represents number of bytes remaining in packet</td>
+<td>Length, Acknowledge flags, connect reason codes, properties</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Publish</td>
+<td>(Broker &lt;&gt; Client) <br> Hex: 3x <br> Bit 3: DUP <br> Bit 2+1: QoS <br> Bit 0: RETAIN</td>
+<td>Variable, represents number of bytes left in packet</td>
+<td>Topic name, packet identifier, properties</td>
+<td>Control data (velocity, position, acceleration)</td>
+</tr>
+<tr>
+<td>Subscribe</td>
+<td>(Client &gt; Broker) <br> Hex: 82</td>
+<td>Variable, represents number of bytes left in packet</td>
+<td>Packet identifier, properties</td>
+<td>Topic filter, subscription options</td>
+</tr>
+<tr>
+<td>Subscribe Acknowledge</td>
+<td>(Broker &gt; Client) <br> Hex: 90</td>
+<td>Variable, represents number of bytes left in packet</td>
+<td>Packet identifier that is being acknowledged, properties</td>
+<td>Reason code corresponding to topic filter</td>
+</tr>
+<tr>
+<td>Disconnect</td>
+<td>(Client &gt; Broker) <br> Hex: E0</td>
+<td>Variable, represents number of bytes left in packet</td>
+<td>Disconnect reason code, properties</td>
+<td>none</td>
 </tr>
 </tbody>
 </table>
