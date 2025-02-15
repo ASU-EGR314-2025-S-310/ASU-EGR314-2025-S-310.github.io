@@ -24,8 +24,8 @@ title: Block Diagram, Process Diagram, and Message Structure
 | 8  | Actuator: Error - Incomplete / Bad Message Received|
 | 9  | Actuator: Reset |
 | 10 | Actuator: Magnet Activation Time |
-| 11 | Actuator: Reset |
-| 12 | Actuator: Magnet Activation Time |
+| 11 | Actuator:  |
+| 12 | Actuator:  |
 | 13 | MQTT: Start Communication  |
 | 14 | MQTT: Send Data |
 | 15 | MQTT: Transmission Error |
@@ -53,10 +53,10 @@ All are (uint8_t).
 
 | Byte 1-2 | Byte 3 | Byte 4-57 | Byte 58 |
 |----------|--------|-----------|---------|
-| 7  | System Sent To | On/Off | Stop |
-| 8 | System Sent To | Message Type | Stop |
-| 9 | System Sent To | Stop Processes | Stop |
-| 10 | System Sent To | Magnet Time Activated | Stop |
+| 7  | System Sent To | Magnetic Switching State | Stop |
+| 8 | System Sent To | Error - Incomplete / Bad Message Received | Stop |
+| 9 | System Sent To | Reset  | Stop |
+| 10 | System Sent To | Magnet Activation Time | Stop |
 | 11 | System Sent To |  | Stop |
 | 12 | System Sent To |  | Stop |
 
