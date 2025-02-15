@@ -726,6 +726,13 @@
 </tbody>
 </table>
 <h3 id="hmi-messages">HMI Messages</h3>
+<p>All are (uint8_t).</p>
+<p>| Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Message | Byte 5-57 <br> Message 2  | Byte 58 |
+|----------|--------|-----------|---------|
+| 16 | HMI ID | Receiver ID | Send Data <br> -Speed Setting <br> - MQTT Data |
+| 17 | HMI ID | Receiver ID | Start Communication |
+| 18 | HMI ID | Receiver ID | End Communication |
+| 22 | HMI ID| Receiver ID  | Error Message |</p>
 <h3 id="actuator-messages">Actuator Messages</h3>
 <p>All are (uint8_t).</p>
 <table>
