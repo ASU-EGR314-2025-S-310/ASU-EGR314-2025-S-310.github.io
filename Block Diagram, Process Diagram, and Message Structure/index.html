@@ -727,12 +727,47 @@
 </table>
 <h3 id="hmi-messages">HMI Messages</h3>
 <p>All are (uint8_t).</p>
-<p>| Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Message | Byte 5-57 <br> Message 2  | Byte 58 |
-|----------|--------|-----------|---------|
-| 16 | HMI ID | Receiver ID | Send Data <br> -Speed Setting <br> - MQTT Data |
-| 17 | HMI ID | Receiver ID | Start Communication |
-| 18 | HMI ID | Receiver ID | End Communication |
-| 22 | HMI ID| Receiver ID  | Error Message |</p>
+<table>
+<thead>
+<tr>
+<th>Byte 1-2 <br> Message Prefix</th>
+<th>Byte 3 <br> Sender ID</th>
+<th>Byte 4 <br> Message</th>
+<th>Byte 5-57 <br> Message 2</th>
+<th>Byte 58</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16</td>
+<td>HMI ID</td>
+<td>Receiver ID</td>
+<td>Send Data <br> -Speed Setting <br> - MQTT Data</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>17</td>
+<td>HMI ID</td>
+<td>Receiver ID</td>
+<td>Start Communication</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>18</td>
+<td>HMI ID</td>
+<td>Receiver ID</td>
+<td>End Communication</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>22</td>
+<td>HMI ID</td>
+<td>Receiver ID</td>
+<td>Error Message</td>
+<td>Stop</td>
+</tr>
+</tbody>
+</table>
 <h3 id="actuator-messages">Actuator Messages</h3>
 <p>All are (uint8_t).</p>
 <table>
