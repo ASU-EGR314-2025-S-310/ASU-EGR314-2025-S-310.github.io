@@ -35,6 +35,16 @@ title: Block Diagram, Process Diagram, and Message Structure
 
 ### HMI Messages
 
+All are (uint8_t).
+
+| Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Message | Byte 5-57 <br> Message 2  | Byte 58 |
+|----------|--------|-----------|---------|
+| 16 | HMI ID | Receiver ID | Send Data <br> -Speed Setting <br> - MQTT Data |
+| 17 | HMI ID | Receiver ID | Start Communication |
+| 18 | HMI ID | Receiver ID | End Communication |
+| 22 | HMI ID| Receiver ID  | Error Message |
+
+
 ### Actuator Messages
 
 All are (uint8_t).
