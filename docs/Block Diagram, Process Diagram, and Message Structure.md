@@ -20,18 +20,20 @@ title: Block Diagram, Process Diagram, and Message Structure
 | 4  | Sensor: Reset |
 | 5  | Sensor: End Processes |
 | 6  | Sensor: End Com |
-| 7  | Sensor:  |
-| 8  | Sensor:  |
-| 9  | Actuator: Magnetic Switching State |
-| 10 | Actuator: Error - Incomplete / Bad Message Received |
+| 7  | Actuator: Magnetic Switching State |
+| 8  | Actuator: Error - Incomplete / Bad Message Received|
+| 9  | Actuator: Reset |
+| 10 | Actuator: Magnet Activation Time |
 | 11 | Actuator: Reset |
 | 12 | Actuator: Magnet Activation Time |
-| 13 | Actuator:  |
-| 14 | Actuator:  |
-| 15 | MQTT: Start Communication |
-| 16 | MQTT: Send Data |
-| 17 | MQTT: Transmission Error |
-| 18 | MQTT: End Communication |
+| 13 | MQTT: Start Communication  |
+| 14 | MQTT: Send Data |
+| 15 | MQTT: Transmission Error |
+| 16 | MQTT: End Communication|
+| 17 | HMI: Send Data |
+| 18 | HMI: Start Communication |
+| 19 | HMI: End Communication |
+| 20 | HMI Error |
 
 ### HMI Messages
 
@@ -39,10 +41,10 @@ All are (uint8_t).
 
 | Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Message | Byte 5-57 <br> Message 2  | Byte 58 |
 |----------|---------------|--------|-----------|--------|
-| 16 | HMI ID | Receiver ID | Send Data <br> -Speed Setting <br> - MQTT Data | Stop| 
-| 17 | HMI ID | Receiver ID | Start Communication | Stop |
-| 18 | HMI ID | Receiver ID | End Communication | Stop | 
-| 22 | HMI ID| Receiver ID  | Error Message | Stop |
+| 17 | HMI ID | Receiver ID | Send Data <br> -Speed Setting <br> - MQTT Data | Stop| 
+| 18 | HMI ID | Receiver ID | Start Communication | Stop |
+| 19 | HMI ID | Receiver ID | End Communication | Stop | 
+| 20 | HMI ID| Receiver ID  | Error Message | Stop |
 
 
 ### Actuator Messages
@@ -51,12 +53,12 @@ All are (uint8_t).
 
 | Byte 1-2 | Byte 3 | Byte 4-57 | Byte 58 |
 |----------|--------|-----------|---------|
-| 9  | System Sent To | On/Off | Stop |
-| 10 | System Sent To | Message Type | Stop |
-| 11 | System Sent To | Stop Processes | Stop |
-| 12 | System Sent To | Magnet Time Activated | Stop |
-| 13 | System Sent To |  | Stop |
-| 14 | System Sent To |  | Stop |
+| 7  | System Sent To | On/Off | Stop |
+| 8 | System Sent To | Message Type | Stop |
+| 9 | System Sent To | Stop Processes | Stop |
+| 10 | System Sent To | Magnet Time Activated | Stop |
+| 11 | System Sent To |  | Stop |
+| 12 | System Sent To |  | Stop |
 
 ### Sensor Messages
 
@@ -77,10 +79,10 @@ All are (uint8_t).
 
 | Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5-57 <br> Message | Byte 58 |
 |----------|---------------|--------|-----------|--------|
-| 15 | MQTT Board ID | Receiver ID | Establish Communication | Stop |
-| 16 | MQTT Board ID | Receiver ID | Data | Stop |
-| 17 | MQTT Board ID | Receiver ID | Error Message | Stop |
-| 18 | MQTT Board ID | Receiver ID | End Communication | Stop |
+| 13 | MQTT Board ID | Receiver ID | Establish Communication | Stop |
+| 14 | MQTT Board ID | Receiver ID | Data | Stop |
+| 15 | MQTT Board ID | Receiver ID | Error Message | Stop |
+| 16 | MQTT Board ID | Receiver ID | End Communication | Stop |
 
 ### MQTT Client/Broker Messages
 
