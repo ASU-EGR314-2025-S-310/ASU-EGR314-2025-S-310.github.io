@@ -2,9 +2,13 @@
 title: Block Diagram, Process Diagram, and Message Structure
 ---
 
-## Block Diagram
+## Block Diagra
+
+![Block Diagram](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Team310BlockDiagram.png?raw=true)
 
 ## Process Diagram
+
+![Process Diagram](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/SequenceDiagram.png?raw=true)
 
 ## Message Types
 
