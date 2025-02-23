@@ -9,10 +9,12 @@ tags:
 
 ## Team Members
 
-- Kirk Volin
-- Hunter Hassebroek
-- Noah Brent
-- Evan Skinner
+- [Kirk Volin](https://kirkvolin.github.io/)
+- [Hunter Hassebroek](https://khakisaturday.github.io/)
+- [Noah Brent](https://nbrentasu.github.io/NBrent/)
+- [Evan Skinner](https://eeskinn1.github.io/)
+
+Each name links to their individual website.
 
 ## Preparation Date
 
