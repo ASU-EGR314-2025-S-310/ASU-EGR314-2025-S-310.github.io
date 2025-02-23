@@ -25,7 +25,7 @@ After our initial bulk brainstorming the team took time to refine and rank ideas
 ## Design Concept Sketch
 
 ![Concept Sketch](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Concept_Sketch.JPG?raw=true)
-[Concept Sketch PDF](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Concept_Sketch.pdf)
+[Concept Sketch PDF](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/ConceptSketch.pdf)
 
 ## Rationale of Features and Functionality
 

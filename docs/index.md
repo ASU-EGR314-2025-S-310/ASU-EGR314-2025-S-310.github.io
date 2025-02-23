@@ -18,7 +18,7 @@ Each name links to their individual website.
 
 ## Preparation Date
 
-Our project will be presented during the Innovation Showcase May 2nd 2025 at 3 to 5 PM. The location for this is the Sundevil Fitness Center on ASU's Polytechnic Campus.
+Our project will be presented during the Innovation Showcase May 2nd 2025 at 10 am to 1 PM. The location for this is the Sundevil Fitness Center on ASU's Polytechnic Campus.
 Arizona State University, Dr. Nichols, Spring 2025, 1/15/2025
 
 ## Project Milestone Dates
@@ -26,8 +26,8 @@ Arizona State University, Dr. Nichols, Spring 2025, 1/15/2025
 | Milestone                | Date (Range)       |
 |--------------------------|--------------------|
 | Start of Project          | 1/15/2025      |
-| Milestone   | [Insert Date]      |
-| Milestone             | [Insert Date]      |
+| External Design Review | [ 2/26/2025]      |
+| CATME 1             | 3/1/2025      |
 | Milestone      | [Insert Date]      |
 | Milestone      | [Insert Date]      |
 | Milestone             | [Insert Date]      |

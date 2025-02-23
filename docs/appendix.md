@@ -34,3 +34,7 @@ Instruction should be kept to a minimum and be easily understandable to accommod
 - Build a system that highlights when components need servicing.
 - Use audio, visuals, and tactile components to accommodate various learning styles.
 - Keep interactions brief and engaging to hold attention.
+
+Previous Design Concept Sketch: Maglev Train
+
+![](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Concept_Model.JPG?raw=true)
