@@ -4,7 +4,7 @@ title: Ideation and Concept Generation
 
 ## Research
 
-The goal of Team 310’s exhibit is to demonstrate the STEM principle of Magnetism in civil applications. This will be accomplished via a quick, interactive experience in order to allow a large number of participants while giving them some level of comprehension regarding the principle. Our team hopes to convey how this principle applies to the exhibits around it and the larger STEM field. 
+The goal of Team 310’s exhibit is to demonstrate the STEM principle of Magnetism. This will be accomplished via a quick, interactive experience in order to allow a large number of participants while giving them some level of comprehension regarding the principle. Our team hopes to convey how this principle applies to the exhibits around it and the larger STEM field. 
 
 Our exhibit will be addressing children in the K-12 education range. Possible characteristics of this audience include smaller attention spans, are easily impressionable, and are more likely to enjoy a flashy demonstration. Physical characteristics vary greatly due to ages this group encompasses which includes height, weight, and dexterity.
 
@@ -12,19 +12,19 @@ Our exhibit will be addressing children in the K-12 education range. Possible ch
 
 After our initial bulk brainstorming the team took time to refine and rank ideas in order to find the most informative, doable, and cost effective ideas.
 
-![Brainstorming Generation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Generation.png)
+![Brainstorming Generation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/UpdatedIdeation.png?raw=true)
 
 ## Ranked Brainsorming
 
-![Brainstorming Ranking](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Ranking.png)
+![Brainstorming Ranking](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/UpdatedRanking.png?raw=true)
 
 ## Refined Brainstorming
 
-![Brainstorming Refinement](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Refinement.png)
+![Brainstorming Refinement](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/UpdatedRefineConsol.png?raw=true)
 
 ## Design Concept Sketch
 
-![Concept Sketch](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Concept_Model.JPG?raw=true)
+![Concept Sketch](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Concept_Sketch.JPG?raw=true)
 
 ## Rationale of Features and Functionality
 
@@ -35,3 +35,5 @@ The goal of Team 310’s exhibit is to demonstrate the STEM principle of Electro
 <!-- [![310 Presentation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/title_slide.png)](https://youtu.be/sNeq0-T3qaE) -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sNeq0-T3qaE?si=eDuEUuGTXGdPqSva" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+This presentation is out of date. The new design is mentioned above.
