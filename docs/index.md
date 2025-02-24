@@ -9,10 +9,10 @@ tags:
 
 ## Team Members
 
-- [Kirk Volin](https://kirkvolin.github.io/)
-- [Hunter Hassebroek](https://khakisaturday.github.io/)
-- [Noah Brent](https://nbrentasu.github.io/NBrent/)
-- [Evan Skinner](https://eeskinn1.github.io/)
+- [Kirk Volin - MQTT](https://kirkvolin.github.io/)
+- [Hunter Hassebroek - HMI](https://khakisaturday.github.io/)
+- [Noah Brent - Actuators](https://nbrentasu.github.io/NBrent/)
+- [Evan Skinner - Sensors](https://eeskinn1.github.io/)
 
 Each name links to their individual website.
 
