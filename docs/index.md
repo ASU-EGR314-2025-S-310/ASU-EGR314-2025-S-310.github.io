@@ -28,7 +28,7 @@ Arizona State University, Dr. Nichols, Spring 2025, 1/15/2025
 | Start of Project          | 1/15/2025      |
 | External Design Review | [ 2/26/2025]      |
 | CATME 1             | 3/1/2025      |
-| Milestone      | [Insert Date]      |
+| Hardware Order      | 2/28/2025      |
 | Milestone      | [Insert Date]      |
 | Milestone             | [Insert Date]      |
 | Report Finished      | [Insert Date]      |
