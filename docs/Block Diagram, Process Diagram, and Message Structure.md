@@ -67,3 +67,15 @@ All are (uint8_t).
 | 4 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Wifi (W)| Disconnected - 0 <br> Connected - 1 | Suffix (YB) |
 | 5 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)| Reset - 1 | Suffix (YB) |
 | 6 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)| Error Message: 0 - 9 | Suffix (YB) |
+
+
+| Message Type |  Evan <br> Role: Sensor <br> ID: E| Noah<br> Role: Actuator <br> ID: N | Kirk <br> Role: MQTT <br> ID: K | Hunter <br> Role: HMI <br> ID: H|
+|----------|---------------|--------|-----------|--------|
+| 1 | S <br> (Sensor Triggered Speed) | R <br> (Coil Activates)| R <br> MQTT Topic: EGR314/Team310/Speed| R <br> (Displays Speed)|
+| 2 | | MQTT ID (K)| Broadcast ID (X)| Reset (R)
+| 3 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)|
+| 4 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Wifi (W)|
+| 5 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)|
+| 6 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)|
+| 7 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)|
+| 8 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)|
