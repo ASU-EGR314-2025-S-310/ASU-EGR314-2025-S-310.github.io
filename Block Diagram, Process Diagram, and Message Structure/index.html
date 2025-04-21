@@ -423,8 +423,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#hmi-messages" class="md-nav__link">
-    HMI Messages
+  <a href="#sensor-messages" class="md-nav__link">
+    Sensor Messages
   </a>
   
 </li>
@@ -437,8 +437,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#sensor-messages" class="md-nav__link">
-    Sensor Messages
+  <a href="#hmi-messages" class="md-nav__link">
+    HMI Messages
   </a>
   
 </li>
@@ -567,8 +567,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#hmi-messages" class="md-nav__link">
-    HMI Messages
+  <a href="#sensor-messages" class="md-nav__link">
+    Sensor Messages
   </a>
   
 </li>
@@ -581,8 +581,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#sensor-messages" class="md-nav__link">
-    Sensor Messages
+  <a href="#hmi-messages" class="md-nav__link">
+    HMI Messages
   </a>
   
 </li>
@@ -671,6 +671,65 @@
 </tr>
 </tbody>
 </table>
+<h3 id="sensor-messages">Sensor Messages</h3>
+<p>All are (uint8_t).</p>
+<table>
+<thead>
+<tr>
+<th>Message Type</th>
+<th>Message Byte 1-2 <br> Message Prefix</th>
+<th>Byte 3 <br> Sender ID</th>
+<th>Byte 4 <br> Receiver ID</th>
+<th>Byte 5 <br> Data Type</th>
+<th>Byte 6 <br> Data Value</th>
+<th>Byte 7-8</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Prefix (AZ)</td>
+<td>Sensor ID (E)</td>
+<td>HMI ID (H)</td>
+<td>Speed (S)</td>
+<td>00-99 (Speed of Ball)</td>
+<td>Suffix (YB)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Prefix (AZ)</td>
+<td>Sensor ID (E)</td>
+<td>Broadcast ID (X)</td>
+<td>Error (F)</td>
+<td>Error type (0-5)</td>
+<td>Suffix (YB)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actuator-messages">Actuator Messages</h3>
+<p>All are (uint8_t).</p>
+<table>
+<thead>
+<tr>
+<th>Message Type</th>
+<th>Byte 1-2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5</th>
+<th>Byte 6-7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>Prefix(AZ)</td>
+<td>Actuator ID (N)</td>
+<td>Broadcast ID (X)</td>
+<td>Error Type (0-6)</td>
+<td>Suffix (YB)</td>
+</tr>
+</tbody>
+</table>
 <h3 id="hmi-messages">HMI Messages</h3>
 <p>All are (uint8_t).</p>
 <table>
@@ -711,91 +770,6 @@
 <td>Receiver ID</td>
 <td>Error Message</td>
 <td>Stop</td>
-</tr>
-</tbody>
-</table>
-<h3 id="actuator-messages">Actuator Messages</h3>
-<p>All are (uint8_t).</p>
-<table>
-<thead>
-<tr>
-<th>Byte 1-2</th>
-<th>Byte 3</th>
-<th>Byte 4-57</th>
-<th>Byte 58</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>7</td>
-<td>System Sent To</td>
-<td>Magnetic Switching State</td>
-<td>Stop</td>
-</tr>
-<tr>
-<td>8</td>
-<td>System Sent To</td>
-<td>Error - Incomplete / Bad Message Received</td>
-<td>Stop</td>
-</tr>
-<tr>
-<td>9</td>
-<td>System Sent To</td>
-<td>Reset</td>
-<td>Stop</td>
-</tr>
-<tr>
-<td>10</td>
-<td>System Sent To</td>
-<td>Magnet Activation Time</td>
-<td>Stop</td>
-</tr>
-<tr>
-<td>11</td>
-<td>System Sent To</td>
-<td></td>
-<td>Stop</td>
-</tr>
-<tr>
-<td>12</td>
-<td>System Sent To</td>
-<td></td>
-<td>Stop</td>
-</tr>
-</tbody>
-</table>
-<h3 id="sensor-messages">Sensor Messages</h3>
-<p>All are (uint8_t).</p>
-<table>
-<thead>
-<tr>
-<th>Message Type</th>
-<th>Message Byte 1-2 <br> Message Prefix</th>
-<th>Byte 3 <br> Sender ID</th>
-<th>Byte 4 <br> Receiver ID</th>
-<th>Byte 5 <br> Data Type</th>
-<th>Byte 6 <br> Data Value</th>
-<th>Byte 7-8</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2</td>
-<td>Prefix (AZ)</td>
-<td>Sensor ID (E)</td>
-<td>HMI ID (H)</td>
-<td>Speed (S)</td>
-<td>00-99 (Speed of Ball)</td>
-<td>Suffix (YB)</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Prefix (AZ)</td>
-<td>Sensor ID (E)</td>
-<td>Broadcast ID (X)</td>
-<td>Error (F)</td>
-<td>Error type (0-5)</td>
-<td>Suffix (YB)</td>
 </tr>
 </tbody>
 </table>
