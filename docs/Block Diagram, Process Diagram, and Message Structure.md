@@ -23,6 +23,24 @@ title: Block Diagram, Process Diagram, and Message Structure
 | 7  | HMI: Send Data |
 | 8 | HMI: Error |
 
+
+### Sensor Messages
+
+All are (uint8_t).
+
+| Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
+|----------|---------------|--------|-----------|--------|--| --|
+| 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)|Speed (S) | 00-99 (Speed of Ball) | Suffix (YB) |
+| 2 | Prefix (AZ)| Sensor ID (E)| Broadcast ID (X)| Error (F) | Error type (0-5) | Suffix (YB) |
+
+### Actuator Messages
+
+All are (uint8_t).
+
+|  Message Type   | Byte 1-2 | Byte 3 | Byte 4 | Byte 5 | Byte 6-7 | 
+| ------- |----------|--------|-----------|---------| -----| 
+| 3 | Prefix(AZ)  | Actuator ID (N) | Broadcast ID (X) | Error Type (0-6) | Suffix (YB) |
+
 ### HMI Messages
 
 All are (uint8_t).
@@ -33,30 +51,6 @@ All are (uint8_t).
 | 18 | HMI ID | Receiver ID | Start Communication | Stop |
 | 19 | HMI ID | Receiver ID | End Communication | Stop | 
 | 20 | HMI ID| Receiver ID  | Error Message | Stop |
-
-
-### Actuator Messages
-
-All are (uint8_t).
-
-| Byte 1-2 | Byte 3 | Byte 4-57 | Byte 58 |
-|----------|--------|-----------|---------|
-| 7  | System Sent To | Magnetic Switching State | Stop |
-| 8 | System Sent To | Error - Incomplete / Bad Message Received | Stop |
-| 9 | System Sent To | Reset  | Stop |
-| 10 | System Sent To | Magnet Activation Time | Stop |
-| 11 | System Sent To |  | Stop |
-| 12 | System Sent To |  | Stop |
-
-### Sensor Messages
-
-All are (uint8_t).
-
-| Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
-|----------|---------------|--------|-----------|--------|--| --|
-| 2 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)|Speed (S) | 00-99 (Speed of Ball) | Suffix (YB) |
-| 3 | Prefix (AZ)| Sensor ID (E)| Broadcast ID (X)| Error (F) | Error type (0-5) | Suffix (YB) |
-
 
 ### MQTT Board Messages
 
