@@ -14,19 +14,15 @@ title: Block Diagram, Process Diagram, and Message Structure
 
 | Message Type (Byte 1-2) | System Send From & Message Description |
 |-------------------------|--------------------------------------|
-| 1  |  |
-| 2  | Sensor: Ball Speed |
-| 3  | Sensor: Sensor Error |
-| 4  | Actuator: Magnet Switchings |
-| 5  | Actuator: Error |
-| 6  | MQTT: Wifi Connection |
-| 7  | MQTT: Master Reset |
-| 8  | MQTT: Error|
-| 9  | HMI: Send Data |
-| 10 | HMI: Error |
-
-
-
+| 1  | Sensor: Ball Speed |
+| 2  | Sensor: Sensor Error |
+| 3  | Actuator: Magnet Switchings |
+| 4  | Actuator: Error |
+| 5  | MQTT: Wifi Connection |
+| 6  | MQTT: Master Reset |
+| 7  | MQTT: Error|
+| 8  | HMI: Send Data |
+| 9 | HMI: Error |
 
 ### HMI Messages
 
@@ -59,8 +55,8 @@ All are (uint8_t).
 
 | Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
 |----------|---------------|--------|-----------|--------|--| --|
-| 2 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)| |  | Suffix (YB) |
-| 3 | Prefix (AZ)| Sensor ID (E)| Broadcast ID (X)| |  | Suffix (YB) |
+| 2 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)|Speed (S) | 00-99 (Speed of Ball) | Suffix (YB) |
+| 3 | Prefix (AZ)| Sensor ID (E)| Broadcast ID (X)| Error (F) | Error type (0-5) | Suffix (YB) |
 
 
 ### MQTT Board Messages
