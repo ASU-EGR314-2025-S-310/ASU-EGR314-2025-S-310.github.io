@@ -455,6 +455,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#system-message-handling" class="md-nav__link">
+    System Message Handling
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -596,6 +603,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-message-handling" class="md-nav__link">
+    System Message Handling
+  </a>
   
 </li>
       
@@ -817,6 +831,7 @@
 </tr>
 </tbody>
 </table>
+<h2 id="system-message-handling">System Message Handling</h2>
 <table>
 <thead>
 <tr>
@@ -837,17 +852,17 @@
 </tr>
 <tr>
 <td>2</td>
-<td></td>
-<td></td>
+<td>S <br> (Error Code)</td>
+<td>-</td>
 <td>R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code</td>
-<td></td>
+<td>-</td>
 </tr>
 <tr>
 <td>3</td>
-<td></td>
-<td>)</td>
+<td>-</td>
+<td>S <br> (Error Code)</td>
 <td>R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code</td>
-<td></td>
+<td>-</td>
 </tr>
 <tr>
 <td>4</td>
@@ -872,17 +887,39 @@
 </tr>
 <tr>
 <td>7</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>-</td>
+<td>R <br> (Change Actuator Speed)</td>
+<td>-</td>
+<td>S <br> (User Controlled Input)</td>
 </tr>
 <tr>
 <td>8</td>
-<td></td>
-<td></td>
-<td>R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code</td>
-<td></td>
+<td>-</td>
+<td>-</td>
+<td>R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code)</td>
+<td>S <br> (Error Code)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>Sends the message</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Receives the Message and does something</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Does Nothing</td>
 </tr>
 </tbody>
 </table>
