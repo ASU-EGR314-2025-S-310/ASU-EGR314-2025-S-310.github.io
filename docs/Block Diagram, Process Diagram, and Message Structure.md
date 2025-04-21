@@ -16,13 +16,12 @@ title: Block Diagram, Process Diagram, and Message Structure
 |-------------------------|--------------------------------------|
 | 1  | Sensor: Ball Speed |
 | 2  | Sensor: Sensor Error |
-| 3  | Actuator: Magnet Switchings |
-| 4  | Actuator: Error |
-| 5  | MQTT: Wifi Connection |
-| 6  | MQTT: Master Reset |
-| 7  | MQTT: Error|
-| 8  | HMI: Send Data |
-| 9 | HMI: Error |
+| 3 | Actuator: Error |
+| 4 | MQTT: Wifi Connection |
+| 5  | MQTT: Master Reset |
+| 6  | MQTT: Error|
+| 7  | HMI: Send Data |
+| 8 | HMI: Error |
 
 ### HMI Messages
 
