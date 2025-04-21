@@ -65,6 +65,6 @@ All are (uint8_t).
 
 | Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
 |----------|---------------|--------|-----------|--------|--| --|
-| 5 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Wifi (W)| Disconnected - 0 <br> Connected - 1 | Suffix (YB) |
-| 6 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)| Reset - 1 | Suffix (YB) |
-| 7 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)| Error Message: 0 - 9 | Suffix (YB) |
+| 4 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Wifi (W)| Disconnected - 0 <br> Connected - 1 | Suffix (YB) |
+| 5 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)| Reset - 1 | Suffix (YB) |
+| 6 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)| Error Message: 0 - 9 | Suffix (YB) |
