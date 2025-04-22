@@ -66,7 +66,7 @@ All are (uint8_t).
 | Message Type |  Evan <br> Role: Sensor <br> ID: E| Noah<br> Role: Actuator <br> ID: N | Kirk <br> Role: MQTT <br> ID: K | Hunter <br> Role: HMI <br> ID: H|
 |----------|---------------|--------|-----------|--------|
 | 1 | S <br> (Sensor Triggered Speed) | R <br> (Coil Activates)| R <br> MQTT Topic: EGR314/Team310/Speed| R <br> (Displays Speed)|
-| 2 | | MQTT ID (K)| Broadcast ID (X)| Reset (R)
+| 2 | S (Error) | MQTT ID (K)| Broadcast ID (X)| Reset (R)
 | 3 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)|
 | 4 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Wifi (W)|
 | 5 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)|
