@@ -62,14 +62,20 @@ All are (uint8_t).
 | 5 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)| Reset - 1 | Suffix (YB) |
 | 6 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)| Error Message: 0 - 9 | Suffix (YB) |
 
-
+## System Message Handling
 | Message Type |  Evan <br> Role: Sensor <br> ID: E| Noah<br> Role: Actuator <br> ID: N | Kirk <br> Role: MQTT <br> ID: K | Hunter <br> Role: HMI <br> ID: H|
 |----------|---------------|--------|-----------|--------|
-| 1 | S <br> (Sensor Triggered Speed) | R <br> (Coil Activates)| R <br> MQTT Topic: EGR314/Team310/Speed| R <br> (Displays Speed)|
-| 2 | S (Error) | MQTT ID (K)| Broadcast ID (X)| Reset (R)
-| 3 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)|
-| 4 | Prefix (AZ)| MQTT ID (K)| HMI ID (H)| Wifi (W)|
-| 5 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)|
-| 6 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)|
-| 7 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Reset (R)|
-| 8 | Prefix (AZ)| MQTT ID (K)| Broadcast ID (X)| Error (F)|
+| 1 | S <br> (Sensor Triggered Speed) | R <br> (Coil Activates)| R <br>( MQTT Topic: EGR314/Team310/Speed)| R <br> (Displays Speed)|
+| 2 | S <br> (Error Code) | - | R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code| -||
+| 3 | - | S <br> (Error Code)| R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code| -|
+| 4 | -| -| S <br> (Wifi Connection State)| R <br> (Displays Wifi Connection)|
+| 5 | R <br> (System Resets)| R <br> (System Resets)| S <br> (Master Reset Trigger)| R <br> (System Resets)|
+| 6 | -| -| S <br> (MQTT Error Code)<br> R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code | -|
+| 7 | -| R <br> (Change Actuator Speed)| -| S <br> (User Controlled Input) |
+| 8 | - |-|R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code)|S <br> (Error Code)|
+
+|Item| Meaning|
+|--|--|
+|S | Sends the message|
+|R|Receives the Message and does something|
+| - | Does Nothing |
