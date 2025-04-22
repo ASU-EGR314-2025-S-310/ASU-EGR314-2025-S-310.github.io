@@ -65,7 +65,7 @@ All are (uint8_t).
 ## System Message Handling
 | Message Type |  Evan <br> Role: Sensor <br> ID: E| Noah<br> Role: Actuator <br> ID: N | Kirk <br> Role: MQTT <br> ID: K | Hunter <br> Role: HMI <br> ID: H|
 |----------|---------------|--------|-----------|--------|
-| 1 | S <br> (Sensor Triggered Speed) | R <br> (Coil Activates)| R <br>( MQTT Topic: EGR314/Team310/Speed)| R <br> (Displays Speed)|
+| 1 | S <br> (Sensor  Speed) | - | R <br>( MQTT Topic: EGR314/Team310/Speed)| R <br> (Displays Speed)|
 | 2 | S <br> (Error Code) | - | R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code| -||
 | 3 | - | S <br> (Error Code)| R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code| -|
 | 4 | -| -| S <br> (Wifi Connection State)| R <br> (Displays Wifi Connection)|
