@@ -45,12 +45,11 @@ All are (uint8_t).
 
 All are (uint8_t).
 
-| Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Message | Byte 5-57 <br> Message 2  | Byte 58 |
-|----------|---------------|--------|-----------|--------|
-| 17 | HMI ID | Receiver ID | Send Data <br> -Speed Setting <br> - MQTT Data | Stop| 
-| 18 | HMI ID | Receiver ID | Start Communication | Stop |
-| 19 | HMI ID | Receiver ID | End Communication | Stop | 
-| 20 | HMI ID| Receiver ID  | Error Message | Stop |
+| Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
+|----------|---------------|--------|-----------|--------|--| --|
+| 7 | Prefix (AZ)| HMI ID (H)| Actuator ID (N)| Speed (S) | Speed Setting (0-3) | Suffix (YB) |
+| 8 | Prefix (AZ)| HMI ID (H)| Broadcast ID (X)| Error (F) | Error Message (0-5) | Suffix (YB) |
+
 
 ### MQTT Board Messages
 
