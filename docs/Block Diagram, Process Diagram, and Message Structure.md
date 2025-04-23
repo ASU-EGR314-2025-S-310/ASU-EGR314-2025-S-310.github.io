@@ -37,9 +37,9 @@ All are (uint8_t).
 
 All are (uint8_t).
 
-|  Message Type   | Byte 1-2 | Byte 3 | Byte 4 | Byte 5 | Byte 6-7 | 
-| ------- |----------|--------|-----------|---------| -----| 
-| 3 | Prefix(AZ)  | Actuator ID (N) | Broadcast ID (X) | Error Type (0-6) | Suffix (YB) |
+|  Message Type   | Byte 1-2 | Byte 3 | Byte 4 | Byte 5 | Byte 6 | Byte 7-8 | 
+| ------- |----------|--------|-----------|---------| ------ | -----| 
+| 3 | Prefix(AZ)  | Actuator ID (N) | Broadcast ID (X) | Data Type (F) | Error Type (0-5) | Suffix (YB) |
 
 ### HMI Messages
 
