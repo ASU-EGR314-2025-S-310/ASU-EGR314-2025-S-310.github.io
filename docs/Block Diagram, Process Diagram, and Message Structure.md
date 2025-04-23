@@ -14,7 +14,7 @@ title: Block Diagram, Process Diagram, and Message Structure
 
 | Message Type (Byte 1-2) | System Send From & Message Description |
 |-------------------------|--------------------------------------|
-| 1  | Sensor: Ball Speed |
+| 1  | Sensor: Sensor State |
 | 2  | Sensor: Sensor Error |
 | 3 | Actuator: Error |
 | 4 | MQTT: Wifi Connection |
@@ -28,10 +28,10 @@ title: Block Diagram, Process Diagram, and Message Structure
 
 All are (uint8_t).
 
-| Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7-8 |
-|----------|---------------|--------|-----------|--------|--| --|
-| 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)|Speed (S) | 00-99 (Speed of Ball) | Suffix (YB) |
-| 2 | Prefix (AZ)| Sensor ID (E)| Broadcast ID (X)| Error (F) | Error type (0-5) | Suffix (YB) |
+| Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7 | Byte 8-9 |
+|----------|---------------|--------|-----------|--------|--| --| - |
+| 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)|Sensor State (S) |   Sensor State (0-1) | Sensor Location (1-4) | Suffix (YB) |
+| 2 | Prefix (AZ)| Sensor ID (E)| Broadcast ID (X)| Error (F) | Error type (0-5) | Byte 7-8 <br> Suffix (YB) |  |
 
 ### Actuator Messages
 
@@ -65,7 +65,7 @@ All are (uint8_t).
 ## System Message Handling
 | Message Type |  Evan <br> Role: Sensor <br> ID: E| Noah<br> Role: Actuator <br> ID: N | Kirk <br> Role: MQTT <br> ID: K | Hunter <br> Role: HMI <br> ID: H|
 |----------|---------------|--------|-----------|--------|
-| 1 | S <br> (Sensor  Speed) | - | R <br>( MQTT Topic: EGR314/Team310/Speed)| R <br> (Displays Speed)|
+| 1 | S <br> (Sensor  State) | - | R <br>( MQTT Topic: EGR314/Team310/Speed)| R <br> (Displays Speed)|
 | 2 | S <br> (Error Code) | - | R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code| -||
 | 3 | - | S <br> (Error Code)| R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code| -|
 | 4 | -| -| S <br> (Wifi Connection State)| R <br> (Displays Wifi Connection)|
