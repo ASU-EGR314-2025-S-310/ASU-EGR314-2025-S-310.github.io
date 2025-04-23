@@ -30,7 +30,7 @@ All are (uint8_t).
 
 | Message Type | Message Byte 1-2 <br> Message Prefix | Byte 3 <br> Sender ID | Byte 4 <br> Receiver ID | Byte 5 <br> Data Type | Byte 6 <br> Data Value| Byte 7 | Byte 8-9 |
 |----------|---------------|--------|-----------|--------|--| --| - |
-| 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)|Sensor State (S) |   Sensor State (0-1) | Sensor Location (1-4) | Suffix (YB) |
+| 1 | Prefix (AZ)| Sensor ID (E)| HMI ID (H)|Sensor State (V) |   Sensor State (0-1) | Sensor Location (1-4) | Suffix (YB) |
 | 2 | Prefix (AZ)| Sensor ID (E)| Broadcast ID (X)| Error (F) | Error type (0-5) | Byte 7-8 <br> Suffix (YB) |  |
 
 ### Actuator Messages
