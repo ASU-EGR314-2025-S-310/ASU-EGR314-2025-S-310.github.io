@@ -71,7 +71,7 @@ All are (uint8_t).
 | 4 | -| -| S <br> (Wifi Connection State)| R <br> (Displays Wifi Connection)|
 | 5 | R <br> (System Resets)| R <br> (System Resets)| S <br> (Master Reset Trigger)| R <br> (System Resets)|
 | 6 | -| -| S <br> (MQTT Error Code)<br> R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code | -|
-| 7 | -| R <br> (Change Actuator Speed)| -| S <br> (User Controlled Input) |
+| 7 | -| R <br> (Change Actuator Speed via LED blinks)| -| S <br> (User Controlled Input) |
 | 8 | - |-|R <br>(Address to MQTT Topic: EGR314/Team310/Error_Address <br> Error Code to MQTT Topic: EGR314/Team310/Error_Code)|S <br> (Error Code)|
 
 |Item| Meaning|
