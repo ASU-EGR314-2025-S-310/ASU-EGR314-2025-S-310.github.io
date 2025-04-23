@@ -653,7 +653,7 @@
 <tbody>
 <tr>
 <td>1</td>
-<td>Sensor: Ball Speed</td>
+<td>Sensor: Sensor State</td>
 </tr>
 <tr>
 <td>2</td>
@@ -696,7 +696,8 @@
 <th>Byte 4 <br> Receiver ID</th>
 <th>Byte 5 <br> Data Type</th>
 <th>Byte 6 <br> Data Value</th>
-<th>Byte 7-8</th>
+<th>Byte 7</th>
+<th>Byte 8-9</th>
 </tr>
 </thead>
 <tbody>
@@ -705,8 +706,9 @@
 <td>Prefix (AZ)</td>
 <td>Sensor ID (E)</td>
 <td>HMI ID (H)</td>
-<td>Speed (S)</td>
-<td>00-99 (Speed of Ball)</td>
+<td>Sensor State (S)</td>
+<td>Sensor State (0-1)</td>
+<td>Sensor Location (1-4)</td>
 <td>Suffix (YB)</td>
 </tr>
 <tr>
@@ -716,7 +718,8 @@
 <td>Broadcast ID (X)</td>
 <td>Error (F)</td>
 <td>Error type (0-5)</td>
-<td>Suffix (YB)</td>
+<td>Byte 7-8 <br> Suffix (YB)</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -847,7 +850,7 @@
 <tbody>
 <tr>
 <td>1</td>
-<td>S <br> (Sensor  Speed)</td>
+<td>S <br> (Sensor  State)</td>
 <td>-</td>
 <td>R <br>( MQTT Topic: EGR314/Team310/Speed)</td>
 <td>R <br> (Displays Speed)</td>
