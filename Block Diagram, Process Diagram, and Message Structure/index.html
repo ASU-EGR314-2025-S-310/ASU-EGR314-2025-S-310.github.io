@@ -754,41 +754,33 @@
 <table>
 <thead>
 <tr>
-<th>Byte 1-2 <br> Message Prefix</th>
+<th>Message Type</th>
+<th>Message Byte 1-2 <br> Message Prefix</th>
 <th>Byte 3 <br> Sender ID</th>
-<th>Byte 4 <br> Message</th>
-<th>Byte 5-57 <br> Message 2</th>
-<th>Byte 58</th>
+<th>Byte 4 <br> Receiver ID</th>
+<th>Byte 5 <br> Data Type</th>
+<th>Byte 6 <br> Data Value</th>
+<th>Byte 7-8</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>17</td>
-<td>HMI ID</td>
-<td>Receiver ID</td>
-<td>Send Data <br> -Speed Setting <br> - MQTT Data</td>
-<td>Stop</td>
+<td>7</td>
+<td>Prefix (AZ)</td>
+<td>HMI ID (H)</td>
+<td>Actuator ID (N)</td>
+<td>Speed (S)</td>
+<td>Speed Setting (0-3)</td>
+<td>Suffix (YB)</td>
 </tr>
 <tr>
-<td>18</td>
-<td>HMI ID</td>
-<td>Receiver ID</td>
-<td>Start Communication</td>
-<td>Stop</td>
-</tr>
-<tr>
-<td>19</td>
-<td>HMI ID</td>
-<td>Receiver ID</td>
-<td>End Communication</td>
-<td>Stop</td>
-</tr>
-<tr>
-<td>20</td>
-<td>HMI ID</td>
-<td>Receiver ID</td>
-<td>Error Message</td>
-<td>Stop</td>
+<td>8</td>
+<td>Prefix (AZ)</td>
+<td>HMI ID (H)</td>
+<td>Broadcast ID (X)</td>
+<td>Error (F)</td>
+<td>Error Message (0-5)</td>
+<td>Suffix (YB)</td>
 </tr>
 </tbody>
 </table>
