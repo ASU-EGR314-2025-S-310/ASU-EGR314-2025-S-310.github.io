@@ -1,5 +1,5 @@
 ---
-title: Block Diagram, Process Diagram, and Message Structure
+title: Block + Process Diagram, and Message Structure
 ---
 
 ## Block Diagram
@@ -49,7 +49,6 @@ All are (uint8_t).
 |----------|---------------|--------|-----------|--------|--| --|
 | 7 | Prefix (AZ)| HMI ID (H)| Actuator ID (N)| Speed (S) | Speed Setting (0-3) | Suffix (YB) |
 | 8 | Prefix (AZ)| HMI ID (H)| Broadcast ID (X)| Error (F) | Error Message (0-5) | Suffix (YB) |
-
 
 ### MQTT Board Messages
 
