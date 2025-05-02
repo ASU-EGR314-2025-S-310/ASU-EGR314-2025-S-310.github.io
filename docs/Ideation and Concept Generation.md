@@ -12,15 +12,15 @@ Our exhibit will be addressing children in the K-12 education range. Possible ch
 
 After our initial bulk brainstorming the team took time to refine and rank ideas in order to find the most informative, doable, and cost effective ideas.
 
-![Brainstorming Generation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Generation.png)
+![Brainstorming Generation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Generation.png?raw=true)
 
 ## Ranked Brainsorming
 
-![Brainstorming Ranking](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Ranking.png)
+![Brainstorming Ranking](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Ranking.png?raw=true)
 
 ## Refined Brainstorming
 
-![Brainstorming Refinement](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Refinement.png)
+![Brainstorming Refinement](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Refinement.png?raw=true)
 
 ## Design Concept Sketch
 
