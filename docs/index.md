@@ -6,9 +6,12 @@ tags:
 ---
 
 ## EGR314 Team 310 Project
-![Final Design](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Concept_Model.JPG?raw=true)
+![Final Design](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Semi_Final_Project_Image.jpg?raw=true)
 
-Have you or a loved one ever wanted to know how an electromagnet works? Ever wanted to mess around with one but didn't want to spend the money? Well your in luck, presenting the American made Electromagnetic Accelerator, the design is very human as once the speed is set all you have to do is sit back and relax as you watch the ball spin round' and round' the track only stopping when you want it to.
+## Project Overview
+Have you or a loved one ever wanted to know how an electromagnet works? Ever wanted to mess around with one but didn't want to spend the money? Well your in luck, presenting the American made Electromagnetic Accelerator, the design is very human as once the speed is set all you have to do is sit back and relax as you watch the ball spin round' and round' the track only stopping when you want it to. 
+
+
 
 ## Team Members
 
