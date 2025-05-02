@@ -15,15 +15,17 @@ After our initial bulk brainstorming the team took time to refine and rank ideas
 
 ## Ranked Brainsorming
 
-<img src="https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Ranking.png?raw=true">
+![Ranked](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/UpdatedRanking.png)
+
 
 ## Refined Brainstorming
 
-<img src="https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Brainstorming_Refinement.png?raw=true">
+![Refined](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/UpdatedRefineConsol.png)
+
 
 ## Design Concept Sketch
 
-![Concept Sketch](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Concept_Model.JPG?raw=true)
+![Concept Sketch](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/Concept_Sketch.JPG)
 
 ## Rationale of Features and Functionality
 
