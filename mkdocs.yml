@@ -7,7 +7,7 @@ theme:
   custom_dir: custom_theme/
   palette:
     text: Roboto
-  logo: assets/BESTLOGOEVERKNOWNTOMAN.JPG
+  logo: assets\SPCSEQRCODELGO.svg
   favicon: assets/BESTLOGOEVERKNOWNTOMAN.JPG
 
   features:
