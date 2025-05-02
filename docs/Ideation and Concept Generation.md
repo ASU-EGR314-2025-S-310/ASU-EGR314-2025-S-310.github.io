@@ -11,6 +11,7 @@ Our exhibit will be addressing children in the K-12 education range. Possible ch
 ## Brainstorming
 
 After our initial bulk brainstorming the team took time to refine and rank ideas in order to find the most informative, doable, and cost effective ideas.
+![Brainstorming Generation](https://raw.githubusercontent.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/refs/heads/main/assets/UpdatedIdeation.png?raw=true)
 
 ## Ranked Brainstorming
 
