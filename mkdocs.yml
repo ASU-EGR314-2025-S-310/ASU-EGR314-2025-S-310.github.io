@@ -6,6 +6,8 @@ theme:
   name: material
   custom_dir: custom_theme/
   palette:
+    primary: black
+    accent: gold
     text: Roboto
   logo: assets/logo.svg/
   favicon: assets/BESTLOGOEVERKNOWNTOMAN.JPG
