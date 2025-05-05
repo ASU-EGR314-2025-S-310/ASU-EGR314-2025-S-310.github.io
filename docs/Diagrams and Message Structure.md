@@ -6,9 +6,13 @@ title: Block + Process Diagram, and Message Structure
 
 ![Block Diagram](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Team310BlockDiagram.png?raw=true)
 
+For our block diagram, all systems are connected through the required 8-pin ribbon. All systems share power through pin 1, ground through pin 8, and UART through pin 2. The sensor and actuator subsystems share additional pins for direct IO communication, as UART is too slow to effectvely control the magnetic coils through the sensor's PCB. 
+
 ## Process Diagram
 
 ![Process Diagram](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/SequenceDiagram.png?raw=true)
+
+The HMI receives user input through a button interface. This prompts the HMI to send a message to the actuator, which changes the coil strength to increase or decrease the speed of the ball. The actuator's timing of the coils is coordinated through IO messages sent from the sensor subsystem. The sensor subsystem also sends a calculated speed of the ball to the HMI system and MQTT for display. The MQTT is able to send a broadcast message to each subsystem to cause a soft reset. All subsystems send an error message to the MQTT for error display when a software error occurs. 
 
 ## Message Types
 
@@ -77,3 +81,14 @@ All are (uint8_t).
 |S | Sends the message|
 |R|Receives the Message and does something|
 | - | Does Nothing |
+
+
+### Biggest Changes Design
+
+Since Dominick was allowed to join our team near the end of the semester, most of our major changes were related to implementing his subsystem.
+
+1. A new subsystem ID was added to the list of team addresses, designated "D"
+2. Error handling was added to the MQTT system to incorporate the new subsystem
+3. The HMI subsystem was required to add echoing and readdressing of incoming speed messages from the sensor subsystem.
+4. The HMI subsystem incorporated the ability to display messages from the new subsystem to show functionality
+5. The MQTT subsystem added functionality to handle a message from the new subsystem to control an LED. 
