@@ -6,9 +6,11 @@ tags:
 ---
 
 ## EGR314 Team 310 Project
+
 <img src="https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Semi_Final_Project_Image.jpg?raw=true">
 
 # Project Overview
+
 To help bolster public knowledge of electromagnetic principles we have elected to produce a project that demonstrates the properties of electromagnetism in a safe and inclusive environment. We have chosen to construct an electromagnetic accelerator, which accelerates a ball around a track using electromagnets to provide acceleration, laser sensors on either side of the two electromagnets for detecting the ball speed and when to turn on/off the magnets, a position tracker/speed display for easier viewing, an HMI system to control the balls acceleration, display the speed and display incoming and outgoing messaging, and an MQTT system for wireless communicaton and data transmission for a third place to view the data. Our system allows for a hands-on approach for learning and encourages children to engage with the material through play, leading to better understanding of the information. 
 
 ## Team Members
@@ -17,6 +19,7 @@ To help bolster public knowledge of electromagnetic principles we have elected t
 - [Hunter Hassebroek - HMI](https://khakisaturday.github.io/)
 - [Noah Brent - Actuators](https://nbrentasu.github.io/NBrent/)
 - [Evan Skinner - Sensors](https://eeskinn1.github.io/)
+- [Dominick Trusko - HMI](https://recpal.github.io/DomTrusko304.github.io/)
 
 Each name links to their individual website.
 
