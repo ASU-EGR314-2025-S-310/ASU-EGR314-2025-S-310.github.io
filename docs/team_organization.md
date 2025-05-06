@@ -33,6 +33,7 @@ _Table 1: Preferred Team Member Communication Modes_
 | Hunter Hassebroek|    Discord     | Text Message     |     Zoom | 
 | Noah Brent  |     Text Message     |     Discord     |     Zoom     |
 | Evan Skinner  |  Discord  |    Text Message    |      Zoom       |
+| Dominick Trusko  |  Discord  |    Text Message    |      Zoom       |
 
 The team will communicate via Text message or Discord and is expected to communicate in a professional 
 and polite way. The team will work hard to be responsive, efficient and timely in all communications 

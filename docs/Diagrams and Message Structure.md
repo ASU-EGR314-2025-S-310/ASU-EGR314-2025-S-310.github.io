@@ -4,9 +4,11 @@ title: Block + Process Diagram, and Message Structure
 
 ## Block Diagram
 
-![Block Diagram](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Team310BlockDiagram.png?raw=true)
+![Block Diagram](https://github.com/ASU-EGR314-2025-S-310/ASU-EGR314-2025-S-310.github.io/blob/main/assets/Team310BDFinal.drawio.png?raw=true)
 
-For our block diagram, all systems are connected through the required 8-pin ribbon. All systems share power through pin 1, ground through pin 8, and UART through pin 2. The sensor and actuator subsystems share additional pins for direct IO communication, as UART is too slow to effectvely control the magnetic coils through the sensor's PCB. 
+For our block diagram, all systems are connected through the required 8-pin ribbon. All systems share power through pin 1, ground through pin 8, and UART through pin 2. The sensor and actuator subsystems share additional pins for direct IO communication, as UART is too slow to effectvely control the magnetic coils through the sensor's PCB.
+
+The order of our systems in the block diagram were based on prioritizing the final output to the user. This meant putting the sensor and actuator systems next to eachother so GPIO could be used to trigger the SPI magnet controls at a faster rate. The next systems in the series were MQTT and HMI's to display the data figures being outputted by the sensors (and for proper error diagnosing for the prior systems). In this configuration, the visual of the marble accelerating was prioritized followed by data output as the targeted younger audiences tend to gravitate towards "flash".
 
 ## Process Diagram
 
@@ -82,6 +84,7 @@ All are (uint8_t).
 |R|Receives the Message and does something|
 | - | Does Nothing |
 
+Our team created a condensed message structure to prioritize one message, the steel marble's calculated speed, so that this data was not delayed from other clogging the daisy chain and interfering with data recording and display. Outside of this, an initial speed setting is send to tell the actuator system which delay to use to adjust coil acceleration of the marble. All other communications regarding state switchings and sensor interrupts were done over GPIO as to ensure an immediate, speedy transfer as well as to continue keeping the speed calculations going smoothly.
 
 ### Biggest Changes Design
 
