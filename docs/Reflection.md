@@ -1,6 +1,5 @@
 
-
-### REFLECTION
+## Reflection
 
 1. There are many secrets in engineering that no one will tell you, you need to ask questions and search to find them out.
 
@@ -23,7 +22,7 @@
 10. Sometimes, it's helpful to get away from project work and just spend time with your group in a casual setting. This will build morale and a sense of cohesiveness in the team, leading to improvements across the board. 
 
 
-### Recommendations for Future Students
+## Recommendations for Future Students
 
 1. If at all possible, build a team with other students that you know. This class is extremely fast paced and stressful, and it would be very difficult to bond as a cohesive team without prior experience working together.
 
@@ -34,3 +33,7 @@
 4. Get work done early. Waiting until the day before or the day of to get labs done holds your entire team back because it robs valuable class time that could be used to work on your project. 
 
 5. Have backup solutions. Any problem has multiple solutions, so be ready is your first solution doesn't work out as well as you expect. 
+
+## Changes for Version 2
+
+Some changes we would made for version two would be to add two more coils and only have one sensor per coil. This change would allow for the ball to move faster and would preserve the speed calculations and the switching timing. With the sensors it wouldn't be a separate pcb it would be a smaller module so we could make a better mounting apparatus that would look better and possibly be adjustable and more stable. A main issue we ran into was how hot the coils would get. With our final switching timing and with 2amps going through each coil they would get up to 200 degreed Fahrenheit in under a minute. In a second version we would tune the switching timing so each coil was on for the minimum amount of time possibly removing the need for a fan system. A huge change would be adding relays on to the actuator pcb and cutting out the serial motor drivers. We had a lot of issues with the screen for HMI.
